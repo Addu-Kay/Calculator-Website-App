@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator App</title>
+</head>
+
+<body>
+    <div class="grid-center">
+        <div class="calculator">
+            <div class="display margin-x grid">
+                <div class="prev-inupt">
+                    <span data-first-operand></span>
+                    <span data-operation></span>
+                    <span data-display></span>
+                </div>
+                <div class="current-input" data-current-operand>0</div>
+            </div>
+            <div class="input margin-x">
+                <button data-delete><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></button>
+                <button data-clear-entry>CE</button>
+                <button data-clear>C</button>
+                <button data-operator>÷</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operator>x</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operator>-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operator>+</button>
+                <button data-negate>+/-</button>
+                <button data-number>0</button>
+                <button data-decimal>.</button>
+                <button class="calculate" data-calculate>=</button>
+            </div>
+        </div>
+    </div>
+    <footer> <a href="https://github.com/Addu-Kay">© 2024 Addu Kay. All rights reserved. </a></footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
